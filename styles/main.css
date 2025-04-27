@@ -1,0 +1,884 @@
+:root {
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Inter", sans-serif;
+    --third-family: "Montserrat", sans-serif;
+    --font3: "Kreon", sans-serif;
+    --font4: "Bellota Text", sans-serif;
+    --font5: "Titillium Web", sans-serif;
+    --font6: "Literata", sans-serif;
+    --font7: "Russo One", sans-serif;
+    --font8: "Arial", sans-serif;
+}
+
+
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+
+
+/* header*/
+
+.header{
+    background: #6f2dc2;
+    
+}
+
+.people_InActive{
+    display: none;
+}
+
+.container_header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height: 60px;
+}
+
+.header_logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header_logo_text{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 150%;
+    color: #fff;
+}
+
+.header_navigation__list{
+    display: flex;
+    gap: 40px;
+}
+
+li img{
+    cursor: pointer;
+}
+
+.item{
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+.header_link{
+    display: flex;
+    align-items:center;
+    gap: 25px;
+}
+
+.header_link__btn{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 5px;
+    border-radius: 8px;
+    padding: 5px 8px 6px 10px;
+    width: 89px;
+    height: 32px;
+    background: rgba(255, 255, 255, 0.15);
+    font-family: var(--third-family);
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #fff;
+}
+
+
+/* section_tarif */
+
+.section_tarif{
+    background: #f9f4ff;
+}
+
+.section_tarif__container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    gap: 60px;
+}
+
+
+.tarif_text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 50%;
+}
+
+.tarif_text__h1{
+    width: 80%;
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #000;
+}
+
+.tarif_text__desc{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #000;
+}
+
+.tarif_text__money{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.tarif_text__btn{
+    border-radius: 10px;
+    padding: 20px 30px;
+    width: 244px;
+    height: 60px;
+    background: linear-gradient(90deg, #a965ed 0%, #fa71cd 100%);
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.tarif_text__btn:hover{
+    background: #a965ed;   
+}
+
+/* swiper */
+
+.slider{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.flex_swiper{
+    display: flex;
+    gap: 15px;
+    align-items:center;
+}
+
+.swiper_text{
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #000;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+  
+.swiper-slide {
+    width: auto !important;
+}
+
+/* features */
+
+.Features{
+    margin-top: 50px;
+}
+
+.Features_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.commission_info{
+    width: auto;
+    text-wrap: wrap;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 30px;
+}
+
+.commission_info__title{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 130%;
+    letter-spacing: -0.02em;
+    color: #000;
+}
+
+.commission_info__desc{
+    margin-top: 10px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #000;
+}
+
+.commission_info__number{
+    margin-top: 10px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #000;
+}
+
+.commission_info__work{
+    margin-top: 10px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #000;
+}
+
+
+/*section_tarif_card */
+
+.section_tarif_card{
+    margin-top: 200px;
+}
+
+.traif_card_header{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #000;
+}
+
+.tarif_card{
+    margin-top: 50px;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article{
+    border-radius: 30px;
+    padding: 25px;
+    width: 380px;
+    height: 610px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.article_aсtive{
+    position: relative;
+    border-radius: 30px;
+    padding: 25px;
+    width: 380px;
+    height: 610px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.article_aсtive::before{
+    content: "";
+    position: absolute;
+    inset: -3px;
+    background: linear-gradient(90deg, #a965ed, #fa71cd);
+    border-radius: 32px;
+    z-index: -1;
+}
+
+.border_purple{
+    border: 3px solid rgba(111, 45, 194, 0.1);
+}
+
+
+
+.header_article__text{
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #000;
+}
+.article_header_col{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.article_wrapper{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.article_link{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.header_article__price{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    background: linear-gradient(90deg, #a965ed 0%, #fa71cd 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.article_text{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #000;
+    text-wrap: wrap;
+}
+
+.article_link__btn{
+    border-radius: 10px;
+    padding: 20px 30px;
+    width: 100%;
+    height: 60px;
+    background: linear-gradient(90deg, #a965ed 0%, #fa71cd 100%);
+    font-family: var(--second-family);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.article_desc{
+    padding-top: 5px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.5);
+    text-wrap: wrap;
+}
+
+.article_desc__sbp{
+    padding-top: 5px;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.5);
+    text-wrap: wrap;
+}
+
+.header_articleNormal__price{
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #000;
+}
+
+.article_linkpurple__btn{
+    border-radius: 10px;
+    padding: 20px 30px;
+    width: 100%;
+    height: 60px;
+    background: rgba(111, 45, 194, 0.1);
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #6f2dc2;
+}
+
+.article_linkpurple__btn:hover{
+    background: linear-gradient(90deg, #a965ed 0%, #fa71cd 100%);
+    color:white;
+    
+}
+
+
+/*section_form */
+
+.section_form{
+    margin-top: 50px;
+    background: #f9f4ff;
+
+}
+
+.section_form_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 30px;
+}
+
+.form_text{
+    width: 50%;
+    padding: 40px 0px 40px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form_text__title{
+    
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #000;
+}
+
+.form_text__desc{
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: #000;
+}
+
+.form_input{
+    display: flex;
+    gap: 20px;
+}
+
+.input{
+    border: 1px solid rgba(111, 45, 194, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    height: 60px;
+    background: #fff;
+
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.from_input__btn{
+    border-radius: 10px;
+    padding: 20px 30px;
+    width: 222px;
+    height: 60px;
+    background: rgba(111, 45, 194, 0.1);
+
+    font-family: var(--second-family);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #6f2dc2;
+}
+
+.form_img{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-right: 90px;
+}
+
+
+@media (min-width: 1800px){
+    .article_aсtive{
+        width: 100%;
+        height: 100%;
+    }
+    .article{
+        width: 100%;
+        height: 533px;
+    }
+    .form_text{
+        width: 60%;
+    }
+    .article{
+        padding: 22px;
+    }
+    .tarif_text{
+        width: 45%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .commission_info__desc{
+        width: 60%;
+    }
+    .commission_info__work{
+        width: 70%;
+
+    }
+    .commission_info__number{
+        width: 60%;
+    }
+    .tarif_text__h1{
+        width: 100%;
+    }
+    .article_desc{
+        width: 77%;
+        font-size: 16px;
+    }
+    .article_desc__sbp{
+        width: 75%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header_navigation__list{
+        gap: 16px;
+    }
+    .container{
+        width: 95%;
+    }
+    .section_tarif__container{
+        gap: 30px;
+    }
+    .commission_info__desc{
+        width: 75%;
+    }
+    .commission_info__work{
+        width: 90%;
+
+    }
+    .commission_info__number{
+        width: 80%;
+    }
+    .section_tarif_card{
+        margin-top: 180px;
+    }
+    .article_aсtive{
+        width: 300px;
+        height: 705px;
+    }
+    .article{
+        width: 300px;
+        height: 705px;
+    }
+    .article_desc__sbp{
+        width: 91%;
+    }
+    .header_article__price{
+        width: 70%;
+    }
+    .article_text{
+        width: 88%;
+    }
+    .header_articleNormal__price{
+        width: 55%;
+    }
+    .form_img{
+        padding: 0px;
+    }
+    .form_text{
+        width: 64%;
+        padding: 45px 0px 45px 50px;
+    }
+    .from_input__btn {
+
+        padding: 10px 10px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .section_tarif__container{
+        gap: 15px;
+        padding-top: 60px;
+    }
+    .people_InActive{
+        display: block;
+        width: 24px;
+        height: 24px;
+    }
+    .header_link{
+        gap: 25px;
+    }
+    .header_link__btn{
+        display: none;
+    }
+    .header_navigation__list{
+        display: none;
+    }
+
+    .tarif_text{
+        gap: 20px;
+    }
+    .tarif_text__h1{
+        width: 80%;
+        font-size: 35px;
+    }
+    .tarif_text__desc{
+        width: 100%;
+        font-size: 22px;
+    }
+    .tarif_img{
+        width: 354px;
+        height: 360px;
+    }
+    .slider{
+        padding-top: 40px;
+    }
+    .Features_container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .commission_info__desc{
+        width: 100%;
+        font-size: 18px;
+    }
+    .commission_info__number{
+        width: 100%;
+        font-size: 18px;
+    }
+    .commission_info__work{
+        width: 100%;
+        font-size: 18px;
+    }
+    .section_tarif_card{
+        margin-top: 120px;
+    }
+    .traif_card_header{
+        font-size: 35px;
+    }
+    .tarif_card{
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .article_wrapper{
+        flex-wrap: nowrap;
+    }
+    .header_article__price{
+        font-size: 30px;
+    }
+    .header_articleNormal__price{
+        font-size: 30px;
+    }
+    .article_text{
+        font-size: 18px;
+    }
+    .article_desc{
+        font-size: 14px;
+    }
+    .article_link__btn{
+        font-size: 18px;
+    }
+    .article_linkpurple__btn{
+        font-size: 18px;
+    }
+    .tarif_text__money{
+        font-size: 14px;
+    }
+    .header_article__text{
+        font-size: 18px;
+    }
+
+    .article_aсtive{
+        width: 100%;
+        height: 100%;
+    }
+    .article{
+        width: 100%;
+        height: 100%;
+    }
+
+    .section_form_container{
+        overflow: hidden;
+        position: relative;
+    }
+    .input{
+        width: 230px;
+    }
+
+    .from_input__btn{
+        font-size: 18px;
+    }
+    .form_text__desc{
+        font-size: 18px;
+    }
+    .form_text{
+        width: 68%;
+        padding: 25px;
+    }
+    .form_text__title{
+        font-size: 30px;
+    }
+    .form_img{
+        position: absolute;
+        top: 20px;
+        right: -90px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .section_tarif__container{
+        padding-top: 30px;
+        display: block;
+    }
+    .people_InActive{
+        display: block;
+        width: 24px;
+        height: 24px;
+    }
+    .header_link{
+        gap: 15px;
+    }
+    .header_link__btn{
+        display: none;
+    }
+    .tarif_text{
+        width: 100%;
+        gap: 15px;
+    }
+    .tarif_text__h1{
+        font-size: 30px;
+    }
+    .tarif_text__desc{
+        width: 90%;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+    .tarif_text__btn{
+        width: 100%;
+        
+    }
+    .tarif_img{
+        padding-top: 20px;
+        width: 100%;
+        height: 100%;
+    }
+    .slider{
+        padding-top: 20px;
+    }
+    .commission_info{
+        padding-left: 20px;
+    }
+    .commission_info__title{
+        font-size: 20px;
+    }
+    .commission_info__number{
+        font-size: 16px;
+    }
+    .traif_card_header{
+        font-size: 30px;
+    }
+    .article_aсtive {
+        padding: 20px;
+        gap: 15px;
+    }
+    .article_header_col{
+        gap: 15px;
+    }
+    .header_article__price{
+        font-size: 24px;
+    }
+    .article{
+        padding: 20px;
+        gap: 15px;
+    }
+    .header_article__text{
+        font-size: 16px;
+    }
+
+    .article_desc{
+        width: 90%;
+    }
+    .article_text{
+        font-size: 16px;
+        width: 95%;
+    }
+    .article_wrapper{
+        padding: 0px;
+    }
+    .header_articleNormal__price{
+        font-size: 24px;
+        width: 100%;
+    }
+    .section_form_container{
+        display: block;
+    }
+    .section_form{
+        border-radius: 20px;
+    }
+    .form_text{
+        width: 100%;
+        padding: 20px;
+        display: block;
+    }
+    .form_img{
+        position: static;
+        padding-top: 33px;
+        padding-left: 32px;
+        padding-right: 32px;
+
+    }
+    .form_input{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 20px;
+    }
+    .form_text__desc{
+        width: 90%;
+        padding-top: 15px;
+        font-size: 16px;
+    }
+    .form_text__title{
+        width: 90%;
+        font-size: 24px;
+    }
+    .input{
+        width: 100%;
+        font-size: 16px;
+    }
+    .from_input__btn{
+        width: 100%;
+        font-size: 16px;
+    }
+}
