@@ -756,7 +756,7 @@ li img{
 }
 
 
-@media (max-width: 320px) {
+@media (max-width: 350px) {
     .section_tarif__container{
         padding-top: 30px;
         display: block;
